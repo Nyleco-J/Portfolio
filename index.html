@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width, initial-scale=1,0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class ="page">
+            <img src="LOGO.png">
+    <ul>
+        <li><a href="index.html"></i>Home</a></li>
+        <li><a href="#About"></i>About</a></li>
+        <li><a href="#UI/UX"></i>Design UI/UX</a></li>
+        <li><a href="#blender"></i>Blender</a></li>
+        <li><a href="#cont"></i>Contact</a></li>
+    </ul>
+</div>
+    <div class="content" data-aos="fade-right" data-aos-duration="1000">
+        <h5>Hi There, Im</h5>
+        <h1><span>Anuran Nyleco-J</span></h1>
+        <h4>A Web Developer Student</h4>
+        <div class="icon">
+            <a href= "https://www.facebook.com/nylecoj.anuran.9">
+            <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/nylyyyy">
+            <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/nylecoanuran/">
+            <i class="fa-brands fa-square-instagram"></i></a>
+            </div>  
+    </div>
+</div>
+<div class="aboutbg">
+<div class="about" id="About" data-aos="fade-right" data-aos-duration="1000">
+        <p>GET TO KNOW <br>
+        ABOUT ME</p> 
+</div>
+<div class="aboutimg" data-aos="fade-right" data-aos-duration="1000">
+    <img src="image/nyle.jpg">
+</div>
+<div class="info" data-aos="fade-left" data-aos-duration="1000">
+    <p>
+        I'm a Computer Science student with a Major in Graphics and Visualization. 22 years old , 4th year college student from Laguna State Polytechnic University San Pablo City Campus.</p>
+</div>
+<div class="dev" data-aos="fade-left"  data-aos-duration="1000">
+    <p>A Web Developer student interested in Developing Applications and Gaining Web Experience. I'm searching for a company where I can contribute to the organization and establish a fulfilling career.</p>
+</div>
+<div class="skills" data-aos="fade-left"  data-aos-duration="1000">
+    <p><h4>Skills</h4>
+    <br>HTML
+        <br>JavaScript
+        <br>CSS
+        <br>C#
+        <br>Web Design
+        <br>
+    </p>
+</div>
+</div>
+<div class="UI" id="UI/UX" data-aos="fade-right"  data-aos-duration="1000">
+    <p>DESIGN UI/UX</p>
+</div>
+<div class="design" data-aos="fade-up"  data-aos-duration="1000">
+<div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="image/figma-homepage.png"></div>
+      <div class="swiper-slide"><img src="image/figma-signup.png"></div>
+      <div class="swiper-slide"><img src="image/figma-main.png"></div>
+      <div class="swiper-slide"><img src="image/figma-joincreate.png"></div>
+      <div class="swiper-slide"><img src="image/figma-profile.png"></div>
+      <div class="swiper-slide"><img src="image/figma-facerecog.png"></div>
+      <div class="swiper-slide"><img src="image/figma-logout.png"></div>
+      <div class="swiper-slide"><img src="image/figma-roompage.png"></div>
+      <div class="swiper-slide"><a href="https://present-meet.onrender.com/login"><img src="image/pmlogo.png"></a></div>
+      ...
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> 
+  </div>
+</div>
+</div>
+
+<div class="UIx" id="blender" data-aos="fade-right" data-aos-duration="1000">
+    <p>BLENDER</p>
+</div>
+<div class="blend" data-aos="fade-up"  data-aos-duration="1000">
+<div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="image/blender.png"></div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+    <section class="contact" id="cont">
+        <div class="content1" data-aos="fade-right"  data-aos-duration="1500">
+            <h2>CONTACT ME</h2>
+        
+        <div class="container1">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="text">
+                        <div class="icon" data-aos="fade-right"><i class="fa-solid fa-location-pin"></i></div>
+                        <h3>Address</h3>
+                        <p>282 Poblacion III San Pedro Alaminos, Laguna</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <div class="icon" data-aos="fade-right"><i class="fa-solid fa-phone"></i></div>
+                        <h3>Phone</h3>
+                        <p>+639086468024</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text" data-aos="fade-right">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>anuran.nyleco24@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactform">
+            <div class="con1" data-aos="fade-left">
+            <h1>Contact Form</h1></div>
+            <form  onsubmit="Mail(); reset(); return false; ">
+                <div class="inputbox" data-aos="fade-left">
+                <input type="text" name="Name" placeholder="Full name" id="Name">
+                </div>
+                <div class="inputbox">
+                <input type="email" name="Email" placeholder="Email"  id="Email">
+                </div>
+                <div class="inputbox">
+                    <input type="contactnumber" name="contact" placeholder="Contact Number"  id="connum">
+                    </div>
+                <div class="inputbox">
+                <textarea name="Message" placeholder="Message" id="Message"></textarea>
+                </div>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+    <div class="rights">
+        <p>
+            copyright &copy; 2023 Nyleco-J - All Rights Reserved.
+        </p>
+    </div>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+        function Mail(){
+
+        let name = document.getElementById("Name").value;
+        let email = document.getElementById("Email").value;
+        let contactnumber = document.getElementById("connum").value;
+        let message = document.getElementById("Message").value;
+
+
+    Email.send({
+
+    SecureToken: "8946f53c-7792-4800-a3a0-b5fd01a633fb",
+    To : 'anuran.nyleco24@gmail.com',
+    From : "anuran.nyleco24@gmail.com",
+    Subject : "Mail From Contact Form",
+    Body : "Name: " + name +"<br/> User Email: " + email + "<br/> Contact Number: " + contactnumber +  "<br/> Message: " + message
+}).then(
+  message => alert("Message Sent Successfully")
+);
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
